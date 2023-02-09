@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="/">Home</a></li>
+                <li class="nav-item"><a href="/users">List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="title">Home Page</h1>
+        <div class="form">
+            <h3>Input User</h3>
+            <form action="/add-user" method="post">
+                <input type="text" placeholder="Username">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
